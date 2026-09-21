@@ -8,8 +8,8 @@
 /* 卡片的初始状态：藏起来 + 微微下沉，等动画把它们抬起来。
    cards.js 在浏览器加载完后用 anime.js 给它们做 stagger 入场。 */
 .card {
-  opacity: 0;
-  transform: translateY(24px);
+  opacity: 1;
+  transform: none;
 }
 
 .section-kicker {
